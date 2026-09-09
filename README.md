@@ -30,17 +30,19 @@
 
 I'm a **Flutter Developer** passionate about building scalable, high-quality, and production-ready mobile applications.
 
-I focus on writing clean, maintainable code and building applications with solid architecture and great user experiences.
+I focus on writing clean, maintainable code and creating applications with strong architecture and excellent user experiences.
 
 - 📱 Cross-platform mobile development with **Flutter & Dart**
 - 🏗️ **Clean Architecture & SOLID Principles**
-- 🔄 State management & scalable application architecture
-- 🔌 REST APIs & backend integrations
+- 🔄 State management and scalable application architecture
+- 🔌 REST APIs and backend integrations
 - 🔥 Firebase & Supabase
-- 🎨 UI/UX implementation & responsive design
-- 🧪 Testing, debugging & performance optimization
-- 🤖 AI-assisted development & modern developer tools
-- 🚀 CI/CD & application deployment
+- 🎨 UI/UX implementation and responsive design
+- 🧪 Testing, debugging and performance optimization
+- 🤖 AI-assisted development and modern developer tools
+- 🔗 MCP and AI-powered developer workflows
+- ⚙️ Automation with **n8n**
+- 🚀 CI/CD and application deployment
 
 > **Build clean. Build scalable. Build products people love.**
 
@@ -53,11 +55,11 @@ I focus on writing clean, maintainable code and building applications with solid
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="55" height="55" alt="Flutter"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="55" height="55" alt="Dart"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="55" height="55" alt="iOS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="55" height="55" alt="Android"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="55" height="55" alt="iOS"/>
 </p>
 
-**Flutter • Dart • iOS • Android**
+**Flutter • Dart • Android • iOS**
 
 ---
 
@@ -70,7 +72,7 @@ I focus on writing clean, maintainable code and building applications with solid
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50" alt="C"/>
 </p>
 
-**Java • C# • C++ • C**
+**Dart • Java • C# • C++ • C**
 
 ---
 
@@ -82,6 +84,14 @@ I focus on writing clean, maintainable code and building applications with solid
 </p>
 
 **Firebase • Supabase**
+
+### Firebase
+
+`Authentication` • `Firestore` • `Cloud Storage` • `FCM` • `Analytics` • `Crashlytics` • `Remote Config`
+
+### Supabase
+
+`PostgreSQL` • `Authentication` • `Storage` • `Realtime` • `Edge Functions`
 
 ---
 
@@ -99,6 +109,65 @@ I focus on writing clean, maintainable code and building applications with solid
 
 `BLoC` • `Cubit` • `Provider` • `GetIt` • `Dio` • `Retrofit` • `Freezed` • `Equatable` • `GoRouter`
 
+### Development Practices
+
+`Clean Code` • `SOLID` • `Design Patterns` • `Reusable Components` • `Modular Architecture` • `Scalable Codebases`
+
+---
+
+## 🌐 APIs & Networking
+
+<p align="left">
+  <img src="https://img.shields.io/badge/REST%20API-0D1117?style=for-the-badge" alt="REST API"/>
+  <img src="https://img.shields.io/badge/JSON-0D1117?style=for-the-badge" alt="JSON"/>
+  <img src="https://img.shields.io/badge/HTTP-0D1117?style=for-the-badge" alt="HTTP"/>
+  <img src="https://img.shields.io/badge/Dio-0D1117?style=for-the-badge" alt="Dio"/>
+  <img src="https://img.shields.io/badge/Retrofit-0D1117?style=for-the-badge" alt="Retrofit"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="50" height="50" alt="Postman"/>
+</p>
+
+`REST APIs` • `HTTP` • `JSON` • `Dio` • `Retrofit` • `Postman`
+
+---
+
+## 🔐 Authentication & Security
+
+<p align="left">
+  <img src="https://img.shields.io/badge/OAuth-0D1117?style=for-the-badge" alt="OAuth"/>
+  <img src="https://img.shields.io/badge/JWT-0D1117?style=for-the-badge" alt="JWT"/>
+  <img src="https://img.shields.io/badge/OTP-0D1117?style=for-the-badge" alt="OTP"/>
+  <img src="https://img.shields.io/badge/Firebase%20Auth-0D1117?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase Auth"/>
+</p>
+
+`Phone Authentication` • `Email Authentication` • `OTP Verification` • `JWT` • `OAuth` • `Token Authentication`
+
+---
+
+## 💾 Local Storage
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SharedPreferences-0D1117?style=for-the-badge" alt="SharedPreferences"/>
+  <img src="https://img.shields.io/badge/Hive-0D1117?style=for-the-badge" alt="Hive"/>
+  <img src="https://img.shields.io/badge/Secure%20Storage-0D1117?style=for-the-badge" alt="Secure Storage"/>
+  <img src="https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge" alt="SQLite"/>
+</p>
+
+`SharedPreferences` • `Hive` • `SQLite` • `Secure Storage`
+
+---
+
+## 🎨 UI / UX
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50" height="50" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Responsive%20UI-0D1117?style=for-the-badge" alt="Responsive UI"/>
+  <img src="https://img.shields.io/badge/Adaptive%20Layout-0D1117?style=for-the-badge" alt="Adaptive Layout"/>
+  <img src="https://img.shields.io/badge/Animations-0D1117?style=for-the-badge" alt="Animations"/>
+  <img src="https://img.shields.io/badge/Dark%20Mode-0D1117?style=for-the-badge" alt="Dark Mode"/>
+</p>
+
+`Figma` • `Responsive Design` • `Custom Widgets` • `Animations` • `Material Design` • `Localization` • `RTL Support` • `Dark Mode`
+
 ---
 
 ## 🧪 Testing & Quality
@@ -108,7 +177,10 @@ I focus on writing clean, maintainable code and building applications with solid
   <img src="https://img.shields.io/badge/Widget%20Testing-0D1117?style=for-the-badge" alt="Widget Testing"/>
   <img src="https://img.shields.io/badge/Integration%20Testing-0D1117?style=for-the-badge" alt="Integration Testing"/>
   <img src="https://img.shields.io/badge/Debugging-0D1117?style=for-the-badge" alt="Debugging"/>
+  <img src="https://img.shields.io/badge/Performance-0D1117?style=for-the-badge" alt="Performance"/>
 </p>
+
+`Unit Testing` • `Widget Testing` • `Integration Testing` • `Debugging` • `Performance Optimization`
 
 ---
 
@@ -135,34 +207,92 @@ I focus on writing clean, maintainable code and building applications with solid
   <img src="https://img.shields.io/badge/AI%20Development-0D1117?style=for-the-badge&logo=openai&logoColor=white" alt="AI Development"/>
   <img src="https://img.shields.io/badge/MCP-0D1117?style=for-the-badge" alt="MCP"/>
   <img src="https://img.shields.io/badge/AI%20Agents-0D1117?style=for-the-badge" alt="AI Agents"/>
+  <img src="https://img.shields.io/badge/LLM%20APIs-0D1117?style=for-the-badge" alt="LLM APIs"/>
+  <img src="https://img.shields.io/badge/Automation-0D1117?style=for-the-badge" alt="Automation"/>
   <img src="https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
 </p>
 
-`AI Agents` • `MCP` • `LLM APIs` • `AI Coding Tools` • `Developer Automation`
+`AI Agents` • `MCP` • `LLM APIs` • `AI Coding Tools` • `Developer Automation` • `n8n`
+
+---
+
+## 🚀 CI/CD & Deployment
+
+<p align="left">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/App%20Store-0D1117?style=for-the-badge&logo=appstore&logoColor=white" alt="App Store"/>
+  <img src="https://img.shields.io/badge/Google%20Play-0D1117?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play"/>
+</p>
+
+`GitHub Actions` • `Docker` • `App Store` • `Google Play`
 
 ---
 
 # 🏗️ What I Build
 
-```text
+<pre>
 📱 Flutter Applications
 │
 ├── 🎨 Modern UI / UX
-├── 🏗️ Clean Architecture
-├── 🧩 SOLID Principles
+│   ├── Responsive Design
+│   ├── Animations
+│   ├── Dark Mode
+│   └── RTL / Localization
+│
+├── 🏗️ Architecture
+│   ├── Clean Architecture
+│   ├── SOLID
+│   ├── MVVM
+│   └── Repository Pattern
+│
 ├── 🔄 State Management
-├── 🔌 REST API Integration
+│   ├── BLoC
+│   ├── Cubit
+│   └── Provider
+│
+├── 🔌 Networking
+│   ├── REST APIs
+│   ├── Dio
+│   ├── Retrofit
+│   └── JSON
+│
 ├── ☁️ Backend
 │   ├── Firebase
 │   └── Supabase
-├── 🔐 Authentication & OTP
+│
+├── 🔐 Authentication
+│   ├── OTP
+│   ├── JWT
+│   ├── Phone Auth
+│   └── Email Auth
+│
 ├── 💾 Local Storage
-├── 🌐 Localization
-├── 📐 Responsive Design
+│   ├── Hive
+│   ├── SQLite
+│   └── Secure Storage
+│
 ├── 🧪 Testing
-└── 🚀 Production Deployment
+│   ├── Unit Tests
+│   ├── Widget Tests
+│   └── Integration Tests
+│
+├── 🤖 AI
+│   ├── AI Agents
+│   ├── MCP
+│   ├── LLM APIs
+│   └── Automation
+│
+└── 🚀 Deployment
+    ├── GitHub Actions
+    ├── App Store
+    └── Google Play
+</pre>
+
+---
 
 # 📊 GitHub Analytics
+
 <div align="center">
 
 <a href="https://github.com/mfarahat19">
@@ -214,7 +344,7 @@ I focus on writing clean, maintainable code and building applications with solid
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=mfarahat19&bg_color=0D1117&color=70A5FD&line=70A5FD&point=FFFFFF&area=true&hide_border=true"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=mfarahat19&theme=tokyo-night&hide_border=true"
   alt="Contribution Graph"
 />
 
@@ -226,13 +356,29 @@ I focus on writing clean, maintainable code and building applications with solid
 
 <div align="center">
 
+<p>
+
 <img src="https://img.shields.io/badge/Flutter-Advanced-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+
 <img src="https://img.shields.io/badge/Clean%20Architecture-Advanced-0D1117?style=for-the-badge" alt="Clean Architecture"/>
+
 <img src="https://img.shields.io/badge/Firebase-Advanced-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+
 <img src="https://img.shields.io/badge/Supabase-Advanced-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+
+</p>
+
+<p>
+
 <img src="https://img.shields.io/badge/REST%20APIs-Advanced-0D1117?style=for-the-badge" alt="REST APIs"/>
+
 <img src="https://img.shields.io/badge/AI%20%2F%20MCP-Learning-0D1117?style=for-the-badge" alt="AI / MCP"/>
+
 <img src="https://img.shields.io/badge/DevOps-Learning-0D1117?style=for-the-badge" alt="DevOps"/>
+
+<img src="https://img.shields.io/badge/Automation-Learning-0D1117?style=for-the-badge" alt="Automation"/>
+
+</p>
 
 </div>
 
@@ -242,17 +388,25 @@ I focus on writing clean, maintainable code and building applications with solid
 
 <div align="center">
 
-### Clean Code → Solid Architecture → Great UX → Production Ready
+## Clean Code → Solid Architecture → Great UX → Production Ready
 
 </div>
 
-- 🧠 **Think before coding**
-- 🏗️ **Design for scalability**
-- 🧩 **Keep components reusable**
-- 🔍 **Write maintainable code**
-- ⚡ **Optimize performance**
-- 🧪 **Test critical functionality**
-- 🚀 **Ship reliable products**
+<table align="center">
+<tr>
+<td align="center">🧠<br/><b>Think</b><br/>Before Coding</td>
+<td align="center">🏗️<br/><b>Design</b><br/>For Scalability</td>
+<td align="center">🧩<br/><b>Build</b><br/>Reusable Components</td>
+<td align="center">🔍<br/><b>Maintain</b><br/>Clean Code</td>
+</tr>
+
+<tr>
+<td align="center">⚡<br/><b>Optimize</b><br/>Performance</td>
+<td align="center">🧪<br/><b>Test</b><br/>Critical Features</td>
+<td align="center">🔐<br/><b>Secure</b><br/>User Data</td>
+<td align="center">🚀<br/><b>Ship</b><br/>Reliable Products</td>
+</tr>
+</table>
 
 ---
 
@@ -260,7 +414,7 @@ I focus on writing clean, maintainable code and building applications with solid
 
 <div align="center">
 
-### Let's build something great together 🚀
+## Let's build something great together 🚀
 
 <p>
   <a href="https://github.com/mfarahat19">
@@ -284,6 +438,12 @@ I focus on writing clean, maintainable code and building applications with solid
   </a>
 </p>
 
+<br/>
+
+<a href="https://github.com/mfarahat19">
+  <img src="https://img.shields.io/github/followers/mfarahat19?label=Follow%20Me&style=social" alt="GitHub Followers"/>
+</a>
+
 </div>
 
 ---
@@ -292,7 +452,12 @@ I focus on writing clean, maintainable code and building applications with solid
 
 ### ⭐ Thanks for visiting my profile!
 
-**Flutter • Mobile Development • Architecture • Firebase • Supabase • AI • MCP**
+<br/>
+
+**Flutter • Mobile Development • Clean Architecture • Firebase • Supabase • AI • MCP**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer" width="100%" alt="Footer"/>
 
 </div>
-
