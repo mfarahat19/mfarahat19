@@ -162,9 +162,137 @@ I focus on writing clean, maintainable code and building applications with solid
 ├── 🧪 Testing
 └── 🚀 Production Deployment
 
-<div align="center"> <a href="https://github.com/mfarahat19"> <img height="180" src="https://github-readme-stats.vercel.app/api?username=mfarahat19&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="GitHub Stats" /> </a> <a href="https://github.com/mfarahat19"> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfarahat19&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages" /> </a> </div> <br/> <div align="center">
+# 📊 GitHub Analytics
+<div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mfarahat19&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<a href="https://github.com/mfarahat19">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api?username=mfarahat19&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight"
+    alt="GitHub Stats"
+  />
+</a>
+
+<a href="https://github.com/mfarahat19">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfarahat19&layout=compact&langs_count=8&hide_border=true&theme=tokyonight"
+    alt="Top Languages"
+  />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img
+  src="https://github-readme-streak-stats.herokuapp.com/?user=mfarahat19&theme=tokyonight&hide_border=true"
+  alt="GitHub Streak"
+/>
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img
+  src="https://github-profile-trophy.vercel.app/?username=mfarahat19&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7"
+  alt="GitHub Trophies"
+/>
+
+</div>
+
+---
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=mfarahat19&bg_color=0D1117&color=70A5FD&line=70A5FD&point=FFFFFF&area=true&hide_border=true"
+  alt="Contribution Graph"
+/>
+
+</div>
+
+---
+
+# 🎯 Current Focus
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Flutter-Advanced-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
+<img src="https://img.shields.io/badge/Clean%20Architecture-Advanced-0D1117?style=for-the-badge" alt="Clean Architecture"/>
+<img src="https://img.shields.io/badge/Firebase-Advanced-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+<img src="https://img.shields.io/badge/Supabase-Advanced-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+<img src="https://img.shields.io/badge/REST%20APIs-Advanced-0D1117?style=for-the-badge" alt="REST APIs"/>
+<img src="https://img.shields.io/badge/AI%20%2F%20MCP-Learning-0D1117?style=for-the-badge" alt="AI / MCP"/>
+<img src="https://img.shields.io/badge/DevOps-Learning-0D1117?style=for-the-badge" alt="DevOps"/>
+
+</div>
+
+---
+
+# 💡 Development Philosophy
+
+<div align="center">
+
+### Clean Code → Solid Architecture → Great UX → Production Ready
+
+</div>
+
+- 🧠 **Think before coding**
+- 🏗️ **Design for scalability**
+- 🧩 **Keep components reusable**
+- 🔍 **Write maintainable code**
+- ⚡ **Optimize performance**
+- 🧪 **Test critical functionality**
+- 🚀 **Ship reliable products**
+
+---
+
+# 🤝 Let's Connect
+
+<div align="center">
+
+### Let's build something great together 🚀
+
+<p>
+  <a href="https://github.com/mfarahat19">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+
+  <a href="https://linkedin.com/in/mfarahat19">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+
+  <a href="https://instagram.com/_mfarahat">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+
+  <a href="https://fb.com/mfarahat1">
+    <img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+  </a>
+
+  <a href="mailto:mofarahat96@outlook.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+**Flutter • Mobile Development • Architecture • Firebase • Supabase • AI • MCP**
 
 </div>
 
