@@ -161,3 +161,10 @@ I focus on writing clean, maintainable code and building applications with solid
 ├── 📐 Responsive Design
 ├── 🧪 Testing
 └── 🚀 Production Deployment
+
+<div align="center"> <a href="https://github.com/mfarahat19"> <img height="180" src="https://github-readme-stats.vercel.app/api?username=mfarahat19&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight" alt="GitHub Stats" /> </a> <a href="https://github.com/mfarahat19"> <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mfarahat19&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages" /> </a> </div> <br/> <div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mfarahat19&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
