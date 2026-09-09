@@ -36,7 +36,7 @@ I focus on writing clean, maintainable code and building applications with solid
 * 🏗️ **Clean Architecture & SOLID Principles**
 * 🔄 State management & scalable application architecture
 * 🔌 REST APIs & backend integrations
-* 🔥 Firebase services & authentication
+* 🔥 Firebase & Supabase
 * 🎨 UI/UX implementation & responsive design
 * 🧪 Testing, debugging & performance optimization
 * 🤖 AI-assisted development & modern developer tools
@@ -51,18 +51,19 @@ I focus on writing clean, maintainable code and building applications with solid
 ## 📱 Mobile Development
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="50" height="50" alt="Flutter"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="50" height="50" alt="Dart"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="50" height="50" alt="Android"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="50" height="50" alt="iOS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="55" height="55" alt="Flutter"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="55" height="55" alt="Dart"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="55" height="55" alt="Android"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="55" height="55" alt="iOS"/>
 </p>
+
+**Flutter • Dart • Android • iOS**
 
 ---
 
 ## 💻 Programming Languages
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="50" height="50" alt="Dart"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" height="50" alt="C#"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50" height="50" alt="C++"/>
@@ -71,34 +72,30 @@ I focus on writing clean, maintainable code and building applications with solid
 
 ---
 
-## 🔥 Backend & Cloud
+## ☁️ Backend
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="50" height="50" alt="Firebase"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" alt="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="50" height="50" alt="SQL Server"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50" height="50" alt="Node.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="55" height="55" alt="Firebase"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="55" height="55" alt="Supabase"/>
 </p>
 
-**Experience with:**
-
-`Firebase Authentication` • `Firestore` • `FCM` • `Cloud Storage` • `REST APIs` • `JSON` • `HTTP`
+**Firebase** • **Supabase**
 
 ---
 
 ## 🧩 Architecture & Development
 
-<p>
+<p align="left">
 
 <img src="https://img.shields.io/badge/Clean%20Architecture-0D1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/SOLID-0D1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MVVM-0D1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Repository%20Pattern-0D1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Dependency%20Injection-0D1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/MVVM-0D1117?style=for-the-badge" />
 
 </p>
 
-**Flutter ecosystem:**
+### Flutter Ecosystem
 
 `BLoC` • `Cubit` • `Provider` • `GetIt` • `Dio` • `Retrofit` • `Freezed` • `Equatable` • `GoRouter`
 
@@ -106,7 +103,7 @@ I focus on writing clean, maintainable code and building applications with solid
 
 ## 🧪 Testing & Quality
 
-<p>
+<p align="left">
 
 <img src="https://img.shields.io/badge/Unit%20Testing-0D1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Widget%20Testing-0D1117?style=for-the-badge" />
@@ -136,18 +133,16 @@ I focus on writing clean, maintainable code and building applications with solid
 
 ## 🤖 AI & Modern Development
 
-<p>
+<p align="left">
 
-<img src="https://img.shields.io/badge/AI%20Assisted%20Development-0D1117?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20Development-0D1117?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/MCP-0D1117?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Automation-0D1117?style=for-the-badge" />
+<img src="https://img.shields.io/badge/AI%20Agents-0D1117?style=for-the-badge" />
 <img src="https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=white" />
 
 </p>
 
-Interested in:
-
-`AI Agents` • `MCP` • `Developer Automation` • `AI Coding Tools` • `LLM APIs`
+`AI Agents` • `MCP` • `LLM APIs` • `AI Coding Tools` • `Developer Automation`
 
 ---
 
@@ -161,11 +156,9 @@ Interested in:
 ├── 🧩 SOLID Principles
 ├── 🔄 State Management
 ├── 🔌 REST API Integration
-├── 🔥 Firebase
-│   ├── Authentication
-│   ├── Firestore
-│   ├── FCM
-│   └── Cloud Storage
+├── ☁️ Backend
+│   ├── Firebase
+│   └── Supabase
 ├── 🔐 Authentication & OTP
 ├── 💾 Local Storage
 ├── 🌐 Localization
@@ -188,11 +181,7 @@ Interested in:
 
 <br/>
 
-<div align="center">
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mfarahat19&theme=tokyonight&hide_border=true" />
-
-</div>
 
 ---
 
@@ -200,7 +189,7 @@ Interested in:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=mfarahat19&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=mfarahat19&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&column=7" alt="GitHub Trophies"/>
 
 </div>
 
@@ -210,7 +199,7 @@ Interested in:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mfarahat19&theme=tokyo-night&hide_border=true&area=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mfarahat19&bg_color=0D1117&color=70A5FD&line=70A5FD&point=FFFFFF&area=true&hide_border=true" alt="Contribution Graph"/>
 
 </div>
 
@@ -218,15 +207,16 @@ Interested in:
 
 # 🎯 Current Focus
 
-```text
-Flutter        ████████████████████  Advanced
-Clean Code     ███████████████████░  Advanced
-Architecture   ██████████████████░░  Advanced
-Firebase       ██████████████████░░  Advanced
-APIs           ██████████████████░░  Advanced
-AI / MCP       ███████████████░░░░░  Learning
-DevOps         █████████████░░░░░░░  Learning
-```
+<p align="center">
+
+<img src="https://img.shields.io/badge/Flutter-Advanced-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Clean%20Architecture-Advanced-0D1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Firebase-Advanced-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/REST%20APIs-Advanced-0D1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20%2F%20MCP-Learning-0D1117?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DevOps-Learning-0D1117?style=for-the-badge"/>
+
+</p>
 
 ---
 
@@ -264,6 +254,6 @@ DevOps         █████████████░░░░░░░  Lea
 
 ### ⭐ Thanks for visiting my profile!
 
-**Flutter • Architecture • AI • Mobile Development**
+**Flutter • Mobile Development • Architecture • AI**
 
 </div>
