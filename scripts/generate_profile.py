@@ -177,6 +177,8 @@ def hero(user):
 
 def project_card(repo, description, index):
     width, height = 420, 180
+    # Clear space under the last row separates the cards from the links below.
+    canvas = height + (14 if index >= len(PROJECTS) - 2 else 0)
     language = repo["primaryLanguage"] or {"name": "Code", "color": MUTED}
     style = f"""<style>
 @keyframes comet{{from{{stroke-dashoffset:0}}to{{stroke-dashoffset:-100}}}}
@@ -185,7 +187,7 @@ def project_card(repo, description, index):
     title_size = 30 if len(repo["name"]) <= 16 else 25
     return "".join(
         [
-            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
+            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {canvas}" width="{width}" height="{canvas}" '
             f'font-family="{SANS}" role="img" aria-label="{escape(repo["name"])}: {escape(description)}">',
             style,
             f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="16" fill="{CARD}" stroke="{BORDER}" stroke-width="1.5"/>',

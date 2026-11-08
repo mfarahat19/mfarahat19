@@ -10,7 +10,6 @@
 <a href="https://github.com/mfarahat19/IslamiApp"><img src="./assets/project-2.svg" width="49%" alt="IslamiApp"/></a>
 <a href="https://github.com/mfarahat19/Ecommerce-App"><img src="./assets/project-3.svg" width="49%" alt="Ecommerce-App"/></a>
 <a href="https://github.com/mfarahat19/Clean-Architecture-Repo"><img src="./assets/project-4.svg" width="49%" alt="Clean-Architecture-Repo"/></a>
-<img src="./assets/spacer.svg" width="100%" height="1" alt=""/>
 <a href="https://mfarahat.vercel.app/"><img src="./assets/portfolio.svg" width="44" alt="Portfolio"/></a>&nbsp;&nbsp;
 <a href="https://linkedin.com/in/mfarahat19"><img src="https://skillicons.dev/icons?i=linkedin" width="44" alt="LinkedIn"/></a>&nbsp;&nbsp;
 <a href="mailto:mofarahat96@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" width="44" alt="Email"/></a>&nbsp;&nbsp;
