@@ -2,8 +2,6 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Mohamed Farahat, Flutter Developer"/>
 
-<br/><br/>
-
 <img src="./assets/calendar.svg" width="100%" alt="Snake eating Mohamed's contribution calendar"/>
 
 <br/><br/>
