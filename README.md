@@ -10,6 +10,10 @@
 
 <br/><br/>
 
+<img src="./assets/calendar.svg" width="100%" alt="Snake eating Mohamed's contribution calendar"/>
+
+<br/><br/>
+
 <a href="https://github.com/mfarahat19/MovieApp"><img src="./assets/project-1.svg" width="49%" alt="MovieApp"/></a>
 <a href="https://github.com/mfarahat19/IslamiApp"><img src="./assets/project-2.svg" width="49%" alt="IslamiApp"/></a>
 <a href="https://github.com/mfarahat19/Ecommerce-App"><img src="./assets/project-3.svg" width="49%" alt="Ecommerce-App"/></a>
@@ -18,13 +22,5 @@
 <br/><br/>
 
 <img src="./assets/stack.svg" width="100%" alt="Tech stack: Flutter, Dart, Firebase, Supabase, Android Studio, Java, Git, GitHub, Docker, Figma, VS Code"/>
-
-<br/><br/>
-
-<img src="./assets/calendar.svg" width="100%" alt="Mohamed's contribution calendar"/>
-
-<br/><br/>
-
-<img src="./assets/snake.svg" width="100%" alt="Snake eating Mohamed's contribution calendar"/>
 
 </div>
