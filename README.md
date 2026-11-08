@@ -4,12 +4,6 @@
 
 <br/><br/>
 
-<a href="https://linkedin.com/in/mfarahat19"><img src="https://skillicons.dev/icons?i=linkedin" width="44" alt="LinkedIn"/></a>&nbsp;&nbsp;
-<a href="mailto:mofarahat96@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" width="44" alt="Email"/></a>&nbsp;&nbsp;
-<a href="https://instagram.com/_mfarahat"><img src="https://skillicons.dev/icons?i=instagram" width="44" alt="Instagram"/></a>
-
-<br/><br/>
-
 <img src="./assets/calendar.svg" width="100%" alt="Snake eating Mohamed's contribution calendar"/>
 
 <br/><br/>
@@ -22,5 +16,11 @@
 <br/><br/>
 
 <img src="./assets/stack.svg" width="100%" alt="Tech stack: Flutter, Dart, Firebase, Supabase, Android Studio, Java, Git, GitHub, Docker, Figma, VS Code"/>
+
+<br/><br/>
+
+<a href="https://linkedin.com/in/mfarahat19"><img src="https://skillicons.dev/icons?i=linkedin" width="44" alt="LinkedIn"/></a>&nbsp;&nbsp;
+<a href="mailto:mofarahat96@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" width="44" alt="Email"/></a>&nbsp;&nbsp;
+<a href="https://instagram.com/_mfarahat"><img src="https://skillicons.dev/icons?i=instagram" width="44" alt="Instagram"/></a>
 
 </div>
