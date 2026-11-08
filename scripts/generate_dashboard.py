@@ -29,6 +29,24 @@ HEAT = ["#21262d", "#0e4429", "#006d32", "#26a641", "#39d353"]
 LANG_COLORS = ["#3b8eea", "#c4861c", "#c45f8c", "#2ea043"]
 OTHER_COLOR = "#8b949e"
 
+# GitHub shows this SVG through <img>, where CSS animation runs but scripts do not.
+STYLE = """<style>
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes draw{from{stroke-dashoffset:364.42}to{stroke-dashoffset:0}}
+@keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+@keyframes wave{0%,7%,100%{transform:scale(1)}3.5%{transform:scale(1.35)}}
+@keyframes halo{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.18)}}
+.rise{animation:rise .6s ease-out both}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:grow .7s cubic-bezier(.2,.8,.2,1) both}
+.draw{animation:draw 1.2s cubic-bezier(.4,0,.2,1) .3s both}
+.cell,.active,.halo{transform-box:fill-box;transform-origin:center}
+.cell{animation:pop .35s ease-out both}
+.active{animation:pop .35s ease-out both,wave 7s ease-in-out infinite}
+.halo{animation:halo 3.5s ease-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>"""
+
 QUERY = """
 query($login: String!) {
   user(login: $login) {
@@ -37,6 +55,7 @@ query($login: String!) {
     repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: 100) {
       totalCount
       nodes {
+        name
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name } }
         }
@@ -77,6 +96,8 @@ def avatar_data_uri(url):
 def language_shares(repositories):
     totals = Counter()
     for repo in repositories:
+        if repo["name"] == LOGIN:  # This profile repo only holds the dashboard generator.
+            continue
         for edge in repo["languages"]["edges"]:
             if edge["node"]["name"] not in IGNORED_LANGUAGES:
                 totals[edge["node"]["name"]] += edge["size"]
@@ -138,10 +159,12 @@ def month_chart(months, x, y, w, h):
             left, top, right = cx - bar_w / 2, baseline - height, cx + bar_w / 2
             parts.append(
                 f'<path d="M{left:.1f} {baseline} V{top + 4:.1f} Q{left:.1f} {top:.1f} {left + 4:.1f} {top:.1f} '
-                f'H{right - 4:.1f} Q{right:.1f} {top:.1f} {right:.1f} {top + 4:.1f} V{baseline} Z" fill="{ACCENT}"/>'
+                f'H{right - 4:.1f} Q{right:.1f} {top:.1f} {right:.1f} {top + 4:.1f} V{baseline} Z" fill="{ACCENT}" '
+                f'class="bar" style="animation-delay:{0.2 + index * 0.05:.2f}s"/>'
             )
         if count == peak and not peak_labelled:
-            parts.append(text(cx, baseline - count / peak * max_height - 8, count, 12, TEXT, 600, "middle"))
+            label_svg = text(cx, baseline - count / peak * max_height - 8, count, 12, TEXT, 600, "middle")
+            parts.append(f'<g class="rise" style="animation-delay:1s">{label_svg}</g>')
             peak_labelled = True
     return "".join(parts)
 
@@ -160,6 +183,11 @@ def language_chart(shares, x, y, w, h):
             color_index += 1
     gap = 2 if len(shares) > 1 else 0
     offset = 0.0
+    parts.append(
+        f'<mask id="donut-reveal" maskUnits="userSpaceOnUse" x="{x}" y="{y}" width="{w}" height="{h}">'
+        f'<circle class="draw" cx="{cx}" cy="{cy}" r="{radius}" fill="none" stroke="#fff" stroke-width="{stroke + 2}" '
+        f'stroke-dasharray="{circumference:.2f}" transform="rotate(-90 {cx} {cy})"/></mask><g mask="url(#donut-reveal)">'
+    )
     for (_, share), color in zip(shares, colors):
         length = share * circumference
         parts.append(
@@ -168,6 +196,7 @@ def language_chart(shares, x, y, w, h):
             f'transform="rotate(-90 {cx} {cy})"/>'
         )
         offset += length
+    parts.append("</g>")
     if shares:
         parts.append(text(cx, cy + 3, f"{shares[0][1] * 100:.0f}%", 20, TEXT, 700, "middle"))
         parts.append(text(cx, cy + 20, shares[0][0], 12, MUTED, anchor="middle"))
@@ -214,9 +243,15 @@ def heatmap(weeks, x, y, w, h):
         previous_month = month
         for day in days:
             fill = HEAT[heat_level(day["contributionCount"], cuts)]
+            pop_delay = 0.3 + column * 0.018 + day["weekday"] * 0.012
+            if day["contributionCount"]:
+                # Same period, later start per column: the pulse travels left to right.
+                motion = f'class="active" style="animation-delay:{pop_delay:.2f}s,{2.2 + column * 0.05:.2f}s"'
+            else:
+                motion = f'class="cell" style="animation-delay:{pop_delay:.2f}s"'
             parts.append(
                 f'<rect x="{grid_x + column * step}" y="{grid_y + day["weekday"] * step}" '
-                f'width="{cell}" height="{cell}" rx="2.5" fill="{fill}"/>'
+                f'width="{cell}" height="{cell}" rx="2.5" fill="{fill}" {motion}/>'
             )
     legend_x = x + w - 20 - len(HEAT) * step - 30
     parts.append(text(legend_x - 8, y + 30, "Less", 11, MUTED, anchor="end"))
@@ -241,12 +276,14 @@ def render(user):
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
         f'font-family="{FONT}" role="img" aria-label="GitHub dashboard for {escape(user["name"])}">',
+        STYLE,
         '<defs><clipPath id="avatar"><circle cx="72" cy="78" r="44"/></clipPath>',
         f'<radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="{ACCENT}" stop-opacity=".16"/>'
         f'<stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></radialGradient></defs>',
         f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="18" fill="{BG}" stroke="{BORDER}"/>',
         '<rect x="1" y="1" width="520" height="240" rx="18" fill="url(#glow)"/>',
         f'<image href="{avatar_data_uri(user["avatarUrl"])}" x="28" y="34" width="88" height="88" clip-path="url(#avatar)"/>',
+        f'<circle class="halo" cx="72" cy="78" r="46" fill="none" stroke="{ACCENT}" stroke-width="2"/>',
         f'<circle cx="72" cy="78" r="46" fill="none" stroke="{ACCENT}" stroke-width="2"/>',
         text(140, 66, user["name"], 32, TEXT, 700),
         text(140, 93, f"@{LOGIN}  ·  {ROLE}", 15, ACCENT, 600),
@@ -255,9 +292,11 @@ def render(user):
     tile_w, tile_gap = 191, 16
     for index, (value, label) in enumerate(stats):
         tile_x = 24 + index * (tile_w + tile_gap)
+        parts.append(f'<g class="rise" style="animation-delay:{index * 0.1:.1f}s">')
         parts.append(panel(tile_x, 152, tile_w, 84))
         parts.append(text(tile_x + tile_w / 2, 192, value, 26, TEXT, 700, "middle"))
         parts.append(text(tile_x + tile_w / 2, 216, label.upper(), 11, MUTED, 600, "middle", 1))
+        parts.append("</g>")
     parts.append(month_chart(monthly_totals(days), 24, 252, 398, 216))
     parts.append(language_chart(language_shares(user["repositories"]["nodes"]), 438, 252, 398, 216))
     parts.append(heatmap(calendar["weeks"], 24, 484, 812, 170))
